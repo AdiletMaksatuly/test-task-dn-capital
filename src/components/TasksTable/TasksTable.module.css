@@ -1,0 +1,36 @@
+.table {
+    width: 100%;
+}
+
+.table-content {
+
+}
+
+.table-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px 20px;
+}
+
+.title {
+    flex-grow: 1;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+    /*margin-right: 20px;*/
+    color: #B4B7BD;
+}
+
+.title-important {
+    font-weight: 600;
+    color: #F2C94C;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}

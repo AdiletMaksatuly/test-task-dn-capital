@@ -1,0 +1,40 @@
+.tags {
+    margin: 17px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.tags-item {
+    order: 1;
+}
+
+.tags-item-active {
+    order: 0;
+    border: 1px solid #7367F0;
+    border-radius: 5px;
+}
+
+.tags-item-active button {
+    padding: 10px;
+    width: 100%;
+}
+
+.tags-title {
+    color: #B9B9C3;
+    font-size: 12px;
+}
+
+.tags-btn {
+    display: flex;
+    align-items: center;
+}
+
+.tags-btn span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 13px;
+    border-radius: 50%;
+}

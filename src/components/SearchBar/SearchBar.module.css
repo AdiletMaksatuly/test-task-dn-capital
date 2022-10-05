@@ -1,0 +1,16 @@
+.searchBar {
+    display: flex;
+    padding: 18px 20px 18px 40px;
+
+    border-bottom: 1px solid #676D7D;
+}
+
+.searchBar-input {
+    flex: auto;
+
+    display: block;
+    margin-left: 10px;
+
+    border: none;
+    background-color: transparent;
+}

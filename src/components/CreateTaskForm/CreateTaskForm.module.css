@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+
+    font-size: 12px;
+}
+
+.tags {
+    display: grid;
+    grid-template: 1fr 1fr / 50% 50%;
+    gap: 15px;
+}
+
+.tags-label {
+    display: block;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}

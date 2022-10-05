@@ -1,0 +1,9 @@
+.tag {
+    display: block;
+    padding: 1px 9px;
+    border-radius: 17px;
+
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}

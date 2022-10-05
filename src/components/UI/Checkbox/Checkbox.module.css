@@ -1,0 +1,41 @@
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    display: none;
+}
+
+.checkbox {
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #404656;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+.checkbox:hover {
+    border: 1px solid #9B51E0;
+}
+
+.checkbox-checked {
+    background-color: #7367F0;
+}
+
+.checkbox-label {
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

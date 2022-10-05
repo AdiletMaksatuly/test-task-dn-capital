@@ -1,0 +1,24 @@
+.navbar {
+    flex: 210px 0 0;
+    padding: 20px 22px 20px 22px;
+
+    border-right: 1px solid #676D7D;
+    color: #ffffff;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.menu {
+    margin: 20px 0;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+}
+
+a svg {
+    margin-right: 10px;
+}
