@@ -14,6 +14,9 @@ What will be added in future:
 - Adaptive for non-desktop devices
 
 Used: React, TypeScript. 
+
 Routing: react-router-dom
+
 Forms: react-hook-form
+
 Store: local storage and React Context
